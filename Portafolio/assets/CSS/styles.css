@@ -3,12 +3,13 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
+/* CSS DESTINADO A LA BARRA DE NAVEGACIÓN */
 #navbar {
     background-color: rgb(0, 0, 0);
 }
 
 .navbar-brand{
-    color: blue;
+    color: rgb(255, 255, 255);
 }
 
 .navbar-brand:hover {
@@ -22,6 +23,7 @@ body {
     color: lightblue;
 }
 
+/* CSS DESTINADO A LA SECCIÓN SOBRE MÍ */
 #foto-perfil {
     align-self: center;
     width: 300px;
@@ -41,23 +43,55 @@ body {
         height: 100vh; 
     }
     
-.lead   {
+#aboutme p {
     margin-bottom: 100pt;
 }
 
+/* CSS DESTINADO A LA SECCIÓN EXPERIENCIA LABORAL*/
+
 #experience {
+    background-color: #6e6e6e;
     padding: 50px 0;
-    color: blue;
 }
 
+#experience h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 40px;
+}
 
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    background-color: rgb(255, 255, 255) ;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #333;
+    font-size: 1.25rem;
+}
+
+.card-subtitle {
+    color: #666;
+    font-size: 1rem;
+}
+
+/* CSS DESTINADO A LA SECCIÓN PROYECTOS*/
 #projects {
-    background-color: hwb(0 0% 100% / 0.845);
+    background-color: rgb(0, 0, 0);
     padding: 50px 0;
-    color: blue;
+    color: rgb(255, 255, 255);
 }
 
-
+#projects h2{
+    color: rgb(255, 255, 255);
+}
+/* CSS DESTINADO AL PIE DE PAGINA*/
 footer {
     background-color: #000000;
     color: rgb(25, 22, 172);
