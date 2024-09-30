@@ -3,6 +3,11 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 /* CSS DESTINADO A LA BARRA DE NAVEGACIÓN */
 #navbar {
     background-color: rgb(0, 0, 0);
@@ -17,6 +22,7 @@ body {
 }
 #navbarNav a {
     color: blue;
+    padding: 10pt;
 }
 
 #navbarNav a:hover {
@@ -35,23 +41,23 @@ body {
 #aboutme {
         background-image: url('../images/Mundo.jpg');
         background-size: cover; 
-        background-position: bottom; 
+        background-position: center; 
         background-attachment: fixed; 
-        padding: 50px; 
+        padding: 20px; 
         color: rgb(0, 0, 0); 
         text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
-        height: 100vh; 
+        height: auto; 
     }
     
 #aboutme p {
-    margin-bottom: 100pt;
+    margin-bottom: 20pt;
 }
 
 /* CSS DESTINADO A LA SECCIÓN EXPERIENCIA LABORAL*/
 
 #experience {
-    background-color: #6e6e6e;
-    padding: 50px 0;
+    background-color: #333333;
+    padding: 20px 0;
 }
 
 #experience h2 {
@@ -64,6 +70,7 @@ body {
     border: none;
     border-radius: 10px;
     transition: transform 0.3s ease;
+    margin-bottom: 20px;
     background-color: rgb(255, 255, 255) ;
 }
 
@@ -84,17 +91,18 @@ body {
 /* CSS DESTINADO A LA SECCIÓN PROYECTOS*/
 #projects {
     background-color: rgb(0, 0, 0);
-    padding: 50px 0;
+    padding: 20px 0;
     color: rgb(255, 255, 255);
 }
 
 #projects h2{
     color: rgb(255, 255, 255);
+    text-align: center;
 }
 /* CSS DESTINADO AL PIE DE PAGINA*/
 footer {
     background-color: #000000;
     color: rgb(25, 22, 172);
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
